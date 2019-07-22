@@ -1,0 +1,21 @@
+{
+  "name": "ampooch-gillian",
+  "version": "1.0.0",
+  "description": "Hello World HTTP server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ampooch/gillian.git/"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "author": "amanda.pooch@jcdx.org"
+}
+
