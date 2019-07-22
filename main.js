@@ -11,4 +11,3 @@ var server = http.createServer(function (request, response) {
 server.listen(8000);
 console.log("Server listening on port 8000\n");
 console.log("HELLO WORLD!!! -AMPooch\n");
-console.log("Hit Ctrl+C to end\n");
