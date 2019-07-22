@@ -8,7 +8,7 @@ node {
 
     stage('Build image') {
        /* Docker build */ 
-        app = docker.build("ampooch-gillian")
+        app = docker.build("ampooch/gillian")
     }
 
     stage('Test image') {
