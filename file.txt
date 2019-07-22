@@ -1,1 +1,5 @@
 HELLO WORLD.
+
+Adding additional text to files from Lab 2.1 for the final project.
+
+This is a simple text file.
