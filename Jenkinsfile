@@ -21,7 +21,7 @@ node {
     stage('Push image') {
         /* Push image with two tags to define latest & number
          * 1) incremental build number from Jenkins
-         * 2) 'latest' tag.
+         * 2) 'latest' tag. */
         docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
